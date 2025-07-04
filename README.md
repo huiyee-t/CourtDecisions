@@ -24,7 +24,7 @@ We aim to answer the following research questions:
 
 We use the **Super-SCOTUS dataset** (Fang et al., 2023b), which contains detailed metadata on U.S. Supreme Court cases — including justice demographics, case characteristics, and decision outcomes. The dataset is divided into:
 
-- `train.jsonl`
+- `train.jsonl` (provided in `train.zip`)
 - `dev.jsonl`
 - `test.jsonl`
 
@@ -76,7 +76,7 @@ Key findings include:
 
 1. Clone this repository or download the files.
 2. Install required Python packages (see the top of `Project.ipynb`).
-3. Place the dataset files in a `data/` directory if needed.
+3. Unzip `train.zip` into the `/data` directory.
 4. Open and run `Project.ipynb` in Jupyter Notebook.
 
 ---
